@@ -68,7 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cat-217679.jpg" />
+    <Content Include="catlitter.jpg" />
+    <Content Include="catmask.jpg" />
     <Content Include="cats.jpg" />
+    <Content Include="catscracth.jpg" />
+    <Content Include="catvet.jpg" />
+    <Content Include="catwater.jpg" />
     <Content Include="cleaning-cat-grooming.jpg" />
     <Content Include="Default.aspx" />
     <Content Include="dog.jpg" />

@@ -80,7 +80,7 @@
           <div class="carousel-item active">
             <img class="first-slide  " id= "image1" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" style="width:90%">>
             <div class="container">
-              <div class="carousel-caption text-left">
+              <div class="carousel-caption text-center">
                 <h1>Moe's Veterinary </h1>
                 <p>Learn all about your favorite animals and how to care for them!!!</p>
                </div>
