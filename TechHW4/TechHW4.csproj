@@ -67,10 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cats.jpg" />
     <Content Include="Default.aspx" />
+    <Content Include="doggo.jpg" />
     <Content Include="FinalPage.aspx" />
+    <Content Include="gray.png" />
+    <Content Include="hamster.jpg" />
+    <Content Include="Hamster1.jpg" />
+    <Content Include="images %281%29.jpg" />
     <Content Include="Page2.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="vet.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
