@@ -62,7 +62,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Clean, fresh water is essential for your cat's good health. If your cat doesn't seem to drink from a bowl, consider providing her with a tall glass (some cats don't like to bend down to drink) or a cat fountain. Be sure to replenish the water with a fresh supply every day.<div class="d-flex justify-content-between align-items-center">
                    
@@ -72,7 +72,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">A general rule of thumb for litter boxes is one for each cat plus one more. So if you have 2 cats, you should have 3 litter boxes. To encourage good litter box habits, keep the litter boxes clean. This may mean scooping more than once per day. Regular cleaning will also help you notice any changes in your cat's urine or stool, which could indicate a health issue.</p>
                     <div class="d-flex justify-content-between align-items-center">
@@ -84,7 +84,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Sometimes a cat will urinate outside his litter box if the box is dirty. But before you blame the accident on the state of the litter box or your cat's naughty behavior, schedule a visit to the veterinarian. A change in litter box habits sometimes means that a cat has a urinary tract infection or other medical issue. </p>
                       <div class="d-flex justify-content-between align-items-center">
@@ -95,7 +95,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top"  alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Not only will this help prevent damage to your furniture, it will help your cat stretch her muscles and keep her claws in top condition. Regular scratching on an appropriate surface such as carpet, sisal, or cardboard helps remove the old layers from your cat's claws.</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -106,7 +106,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <img class="card-img-top"  alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">Annual visits give the vet a chance to catch any potential feline diseases in their early stages, administer vaccines, and clean the cat's teeth. Your vet can also tell you if your cat is at a healthy weight.</p>
      
