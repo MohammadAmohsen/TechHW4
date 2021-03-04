@@ -48,21 +48,21 @@
 <body class="text-center">
  
       <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Main</a>
+      <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#navbar">Main</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#navbar">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Default.aspx">Cats</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  " href="Page2.aspx">Dogs</a>
+              <a class="nav-link" href="Page2.aspx">Dogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link  " href="FinalPage.aspx">Hamster</a>
@@ -104,19 +104,19 @@
             <img class="rounded-circle" src="cats.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Cats</h2>
             <p> Cats are beasts
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Default.aspx" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle"  src="doggo.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Dogs</h2>
             <p>Dogs are alright
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="Page2.aspx" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="hamster.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Hamsters</h2>
             <p> Hamsters are chunky
-              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="FinalPage.aspx" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 

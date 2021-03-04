@@ -1,11 +1,30 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TechHW4.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<header>
-      <div class="navbar navbar-dark bg-dark box-shadow">     
-      </div>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#navbar">Main</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#navbar">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Default.aspx">Cats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Page2.aspx">Dogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="FinalPage.aspx">Hamster</a>
+            </li>
+          </ul>
+           
+        </div>
+      </nav>
     </header>
 
     <main role="main">
@@ -18,7 +37,7 @@
         </div>
       </section>
 
-      <div class="album py-5 bg-light">
+      <div id="Cats" class="album py-5 bg-light">
         <div class="container">
 
           <div class="row">
@@ -92,15 +111,7 @@
 
     </main>
 
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
-      </div>
-    </footer>
+ 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -110,5 +121,8 @@
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="../../../../dist/js/bootstrap.min.js"></script>
     <script src="../../../../assets/js/vendor/holder.min.js"></script>
-    
+        </asp:Content>
+
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
 </asp:Content>
