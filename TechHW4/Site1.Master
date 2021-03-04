@@ -3,8 +3,7 @@
 <html>
 <head runat="server">
     <link href="StyleSheet1.css" rel="stylesheet" />
-     <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+  
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -41,7 +40,10 @@
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">  
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
     </head>
 <body class="text-center">
  
@@ -54,7 +56,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link" href="Site1.Master">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Default.aspx">Cats</a>
@@ -128,7 +130,7 @@
             <h2 class="featurette-heading">Cats <span class="text-muted"> </span></h2>
             <p class="lead">Cats are wildly considered to be the best pet, and are the most adopted animal of all. As you read on, you will see how to properly care for them. </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto rounded-circle"  src="cat-217679.jpg"  alt="Generic placeholder image">
           </div>
         </div>
 
@@ -140,7 +142,7 @@
             <p class="lead">Dogs are the perfect pet for extroverts. Take them on walks, teach them tricks, and get the most loyal friend possible. They're the most loyal animal, but require the most effort, so continue on and learn how to properly care and train your dog.
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto rounded-circle" src="dog.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -151,8 +153,8 @@
             <h2 class="featurette-heading">Hamsters <span class="text-muted"></span></h2>
             <p class="lead"> Adorable little fluff balls who aren't as popular as cats or dogs. They still require alot of care and love, and this site is the best place to learn it all!
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <div class="col-md-5  ">
+            <img class="featurette-image img-fluid mx-auto rounded-circle" src="Hamster1.jpg" alt="Generic placeholder image">
           </div>
         </div>
 

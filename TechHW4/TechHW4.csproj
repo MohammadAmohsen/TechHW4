@@ -67,8 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cat-217679.jpg" />
     <Content Include="cats.jpg" />
+    <Content Include="cleaning-cat-grooming.jpg" />
     <Content Include="Default.aspx" />
+    <Content Include="dog.jpg" />
     <Content Include="doggo.jpg" />
     <Content Include="FinalPage.aspx" />
     <Content Include="gray.png" />
